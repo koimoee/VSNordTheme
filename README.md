@@ -1,5 +1,5 @@
 <div align='center'>
-  <img src='https://raw.githubusercontent.com/koimoee/VSNordTheme/refs/heads/main/assets/icon2.png?token=GHSAT0AAAAAAC5AXXGGPRVH3S2T6JQE37VSZ363LIA' alt='logo' width='80px' >
+  <img src='https://raw.githubusercontent.com/koimoee/VSNordTheme/refs/heads/main/assets/icon2.png?token=GHSAT0AAAAAAC5AXXGGH5K52ZMSEWOKTFFQZ363R6A' alt='logo' width='80px' >
 <h2 align="center">
 VS Nord Theme
 </h2>
