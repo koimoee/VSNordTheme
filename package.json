@@ -1,16 +1,16 @@
 {
     "name": "vs-nord-theme",
     "displayName": "VS Nord Theme",
-    "description": "🎨 Darker version of the awesome Nord theme For VS",
-    "version": "1.0.1",
+    "description": "🎨 Multi Awesome Nord theme For VS",
+    "version": "1.0.2",
     "publisher": "Kochan",
     "author": "Kochan",
     "homepage": "https://prplmoe.me",
     "bugs": "https://github.com/koimoee/VSNordTheme/issues",
     "repository": {
-    "type": "git",
-    "url": "https://github.com/koimoee/VSNordTheme"
-  },
+        "type": "git",
+        "url": "https://github.com/koimoee/VSNordTheme"
+    },
     "license": "GPL-3.0-only",
     "engines": {
         "vscode": "^1.14.0"
@@ -29,9 +29,24 @@
     "contributes": {
         "themes": [
             {
-                "label": "VS Nord Theme",
+                "label": "VS Nord Theme Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/VSNordTheme-color-theme.json"
+            },
+            {
+                "label": "VS Nord Theme Light",
+                "uiTheme": "vs",
+                "path": "./themes/VSNordTheme-light-color-theme.json"
+            },
+            {
+                "label": "VS Nord Theme Dark Contrast",
+                "uiTheme": "hc-black",
+                "path": "./themes/VSNordTheme-dark-contrast-color-theme.json"
+            },
+            {
+                "label": "VS Nord Theme Light Contrast",
+                "uiTheme": "hc-light",
+                "path": "./themes/VSNordTheme-light-contrast-color-theme.json"
             }
         ]
     }
