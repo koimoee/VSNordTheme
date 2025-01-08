@@ -1,0 +1,38 @@
+{
+    "name": "vs-nord-theme",
+    "displayName": "VS Nord Theme",
+    "description": "Darker version of the awesome Nord theme",
+    "version": "1.0.0",
+    "publisher": "Kochan",
+    "author": "Kochan",
+    "homepage": "https://prplmoe.me",
+    "bugs": "https://github.com/koimoee/VSNordTheme/issues",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/koimoee/VSNordTheme"
+  },
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.14.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "assets/icon2.png",
+    "keywords": [
+        "arctic",
+        "dark",
+        "bluish",
+        "penato",
+        "nord"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "VS Nord Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/VSNordTheme-color-theme.json"
+            }
+        ]
+    }
+}
